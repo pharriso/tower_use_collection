@@ -1,0 +1,12 @@
+---
+
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  tasks:
+  - name: Create tower organization
+    awx.awx.tower_organization:
+      name: test_org
+      description: "tes org"
+      state: present
+
