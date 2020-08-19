@@ -5,8 +5,8 @@
   gather_facts: false
   tasks:
   - name: Create tower organization
-    awx.awx.tower_organization:
+    ansible.tower.tower_organization:
       name: test_org
-      description: "tes org"
+      description: "test org"
       state: present
 
