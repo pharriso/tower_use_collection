@@ -3,5 +3,5 @@ collections:
 
 - name: ansible.tower
 - name: redhat.satellite
+  version: 2.1.0
 - name: ovirt.ovirt
-  source: https://galaxy.ansible.com
